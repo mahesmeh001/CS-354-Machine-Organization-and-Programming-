@@ -15,3 +15,7 @@ A key objective of this assignment is for you to practice using pointers. To ach
 Instead, you are required to use address arithmetic and dereferencing to access arrays. 
 You may not use brackets, e.g., writing “latin_square[1][2]” to access character (1,2) of the latin square. 
 Submitting a solution using indexing to access the latin square or any other array will result in a 50% reduction of your score.
+
+All libraries needed for the completion of this have been included for you already. It is not permitted to use any external C libraries beyond those present in the starter files.
+
+Your code must terminate with no memory leaks. See the Valgrind section below for more details on how to check your program for memory leaks.
