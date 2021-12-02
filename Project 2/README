@@ -1,0 +1,17 @@
+The text files in this folder can be used for testing the code. To compile this project, you must specify the parameters of the program to include whichever text file you want to run it with. 
+
+
+
+
+This projects specifications are as follows:
+
+In this project, we will read an nxn puzzle from a file and verify it is a valid Latin Square. You will complete four functions for this project.
+Read_Latin_Square_File(...) reads the puzzle board from a file, reserves memory for the puzzle with malloc, and fills in the data structure.
+Verify_Alphabet(...) counts the symbols used and verifies that exactly n symbols are each used exactly n times.
+Verify_Rows_And_Columns(...) Identifies rows or columns that use symbols more than once.
+Free_Memory(...) calls free to return the memory reserved by malloc when we're done with it.
+
+A key objective of this assignment is for you to practice using pointers. To achieve this, you are not allowed to use array indexing with square brackets to access arrays in the latin_square_functions.c file.
+Instead, you are required to use address arithmetic and dereferencing to access arrays. 
+You may not use brackets, e.g., writing “latin_square[1][2]” to access character (1,2) of the latin square. 
+Submitting a solution using indexing to access the latin square or any other array will result in a 50% reduction of your score.
