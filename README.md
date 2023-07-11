@@ -1,2 +1,2 @@
-# CS-354-Machine-Organization-and-Programming-
-These are my projects for the computer science machine organization and programing course. Each project folder has a README file which contains the projects requirements.
+# Organization-and-Programming-
+These are a series of projects exploring programming in C, a lower-level language. Focuses on these projects include figuring out how memory is stored/allocated at a lower level, understanding the usage of pointers, and analyzing efficiency. 
